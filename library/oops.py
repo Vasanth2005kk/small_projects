@@ -44,8 +44,8 @@ class library():
             book_name=input("ENTER THE BOOK NAME :")
             book_author=input("ENTER THE AUTHOR NAME :")
             def add_book(x,y):
-                with open("//home//vasanth//All_Repositories//libray//books.txt","a") as file_1:
-                    file_1.write(f"{x},{y}\n")
+                with open("books.txt","a") as file_1:
+                    file_1.write(f"\n{x},{y}")
                     print("----- SUCCESSFULLY ! -----")
             add_book(book_name,book_author)
 

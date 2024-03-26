@@ -18,7 +18,7 @@ print("\n{msg:^30}".format(msg="<<< EXIT >>>\n"))
 def json_format():
     import re
     dic={}
-    with open('//home//vasanth//All_Repositories//libray//books.txt',"r") as f:
+    with open('clear',"r") as f:
         for i in f:
             output=re.split("[\n]|,",i)
             dic.update({output[0]:output[1]})
