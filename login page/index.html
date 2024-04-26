@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login page</title>
+    <link rel="icon" href="images/login_icon.png">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://kit.fontawesome.com/92e840bc62.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="back_ground">
+        <div class="frame">
+            <p>Login</p>
+            <br>
+            <br>
+            <div class="input-icons">
+                <i class="fa fa-user icon"></i>
+                <input class="input-field1" type="text" placeholder="Name">
+                <br>
+                <br>
+                <i class="fa-solid fa-lock"></i>
+                <input id="myInput" type="password" placeholder="password">
+            </div>
+            <div class="password_show">
+                <!-- <input type="checkbox"> -->
+                <input type="checkbox" onclick="myFunction()">
+                <label>Remember me</label>
+            </div>
+            <div class="forget">
+                <span>Forget Me?</span>
+            </div>
+            <div class="login_bor">
+                <span style="color:black;">Login</span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+      </script>
+</body>
+</html>
