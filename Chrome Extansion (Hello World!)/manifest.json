@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name":"Hello world!",
+    "version":"0.0.1",
+    "description":"a hello world !",
+    "icons":{
+        "128":"hello_world.png",
+        "48":"hello_world.png",
+        "16":"hello_world.png"
+    },
+    "action":{
+        "default_icon":"hello_world.png",
+        "default_popup":"popup.html"
+    }
+}
