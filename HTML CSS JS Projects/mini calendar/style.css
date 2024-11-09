@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    background-color: #6A63D2;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* font-family: "Permanent Marker", cursive;
+    font-weight: 400; */
+}
+
+.mini {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+.month-name {
+    background-color: #FF5200;
+    padding: 15px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    border-radius: 15px 15px 0 0;
+}
+
+.dayname {
+    font-family: "Roboto Mono", serif;
+    font-weight: 700;
+    opacity: 0.5;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.day {
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+
+}
+
+.year {
+    padding-top: 20px;
+    font-family: "Roboto Mono", serif;
+    font-weight: 700;
+    opacity: 0.5;
+    font-size: 20px;
+    padding-bottom: 15px
+}
