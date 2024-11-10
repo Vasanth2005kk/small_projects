@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&family=Permanent+Marker&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    background-color: #FA8073;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.main-continer{
+    text-align: center;
+    padding:10px;
+}
+.main-continer h2{
+    color: white;
+    font-size: 38px;
+    letter-spacing: 5px;
+
+    /* google font section */
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+.main-continer button{
+    width: 150px;
+    height: 150px;
+    font-size: 30px; 
+    font-family: "Roboto Mono", serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+}
+.main-continer p{
+    font-size: 20px;
+    font-family: "Roboto Mono", serif;
+    text-transform: capitalize;
+    padding-top: 30px;
+    color:whitesmoke;
+}
+.main-continer #active{
+    width: 150px;
+    height: 150px;
+    
+}   
